@@ -8,3 +8,5 @@ export class PeopleAccount extends DioAccount {
     this.doc_id = doc_id
   }
 }
+
+// Codigo totalmente baseado nas aulas do bootcamp da DIO e no repósitorio https://github.com/digitalinnovationone/desafio01-ts.git

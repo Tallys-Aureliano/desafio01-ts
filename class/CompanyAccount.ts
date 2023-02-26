@@ -10,3 +10,5 @@ export class CompanyAccount extends DioAccount {
     console.log('Voce pegou um empréstimo')
   }
 }
+
+// Codigo totalmente baseado nas aulas do bootcamp da DIO e no repósitorio https://github.com/digitalinnovationone/desafio01-ts.git
