@@ -37,7 +37,7 @@ export abstract class DioAccount {
 
   getBalance = (): void => {
     this.accountValidation()
-    console.log(this.balance)
+    console.log("Your balance", this.balance)
   }
 
   private validateStatus = (): boolean => {
@@ -49,9 +49,9 @@ export abstract class DioAccount {
 
   accountValidation = () => {
     if (this.validateStatus()) {
-      console.log("Conta verificada!")
+      console.log("Verified Account!")
     } else {
-      throw new Error('Conta inválida')
+      throw new Error('Invalid Account')
     }
   }
 
